@@ -2,7 +2,7 @@
  * Class: CMSC 140 CRN 21090
  * Instructor: Professor Shah
  * Project 1
- * Description: This program calculates the user’s inputted age into months, days, minutes, seconds, dog years, and goldfish years. Program also shows an example of basic operators used.
+ * Description: This program calculates the userâ€™s inputted age into months, days, minutes, seconds, dog years, and goldfish years. Program also shows an example of basic operators used.
  * Due Date: 09/25/2022
  * I pledge that I have completed the programming assignment independently.
    I have not copied the code from a student or any source.
@@ -12,15 +12,15 @@
 	(be sure to indent items with control structure)
 	(need to match flow chart submitted in documentation)
 
-1.	Display message “Hello, welcome to Montgomery College! My name is robot_name. May I have your name?”
+1.	Display message â€œHello, welcome to Montgomery College! My name is robot_name. May I have your name?â€
 2.	Read visitor_name
-3.	Display message “Nice to have you with us today, visitor_name!
+3.	Display message â€œNice to have you with us today, visitor_name!
     Let me impress you with a small game.
     Give me the age of an important person or a pet to you.
-    Please give me only a number:”
+    Please give me only a number:â€
 4.	Read age
 5.	Calculate age into amount of months, days, hours, minutes, and seconds for a person. Calculate age for amount of dog years in human years and amount of goldfish years to human years.
-6.	Display message “You have entered age.
+6.	Display message â€œYou have entered age.
     If this is for a person, the age can be expressed as:
     _ years
     or  _ months
@@ -29,16 +29,16 @@
     or about _ minutes
     or about _ seconds.
     If this is for a dog, it is _  years old in human age.
-    If this is for a goldfish, it is _ years old in human age.”
-7.	Display message “Let’s play another game, visitor_name. Give me a whole number.”
+    If this is for a goldfish, it is _ years old in human age.â€
+7.	Display message â€œLetâ€™s play another game, visitor_name. Give me a whole number.â€
 8.	Read whole_number1
-9.	Display message “Very well. Give me another whole number.”
+9.	Display message â€œVery well. Give me another whole number.â€
 10.	Read whole_number2
 11.	Add whole_number1 and whole_number2 to get the sum. Divide whole_number1 and whole_number2. Change whole_number1 into double data type using static_cast and divide whole_number1 and whole_number2 to get a decimal number.
-12.	Display message “Using the operator '+' in C++, the result of whole_number1 + whole_number2 is __.
+12.	Display message â€œUsing the operator '+' in C++, the result of whole_number1 + whole_number2 is __.
     Using the operator '/', the result of whole_number1 / whole_number2 is __.
-    However, the result of whole_number1 / whole_number2 is about __.”
-13.	Display message “Thank you for testing my program!
+    However, the result of whole_number1 / whole_number2 is about __.â€
+13.	Display message â€œThank you for testing my program!
     PROGRAMMER: Andrea Almeda
     CMSC140 Common Project 1
     Due Date: 09/25/2002"
@@ -46,7 +46,6 @@
 
 #include <iostream>
 #include <string>
-#include <cmath>
 using namespace std;
 
 int main()
